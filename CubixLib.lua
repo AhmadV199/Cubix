@@ -1,4 +1,4 @@
-
+print("Hello World Cubix")
 local function loadUI()
 	local G2L = {};
 
