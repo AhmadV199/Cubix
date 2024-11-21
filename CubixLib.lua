@@ -6364,9 +6364,70 @@ local function loadUI()
 			end
 		end
 
-		local url = "http://voidac.is-best.net/Cubix/scripts.txt"
-
-		local data = JSONGet(url)
+		local data = JSONGet([[
+			{
+				"2753915549": [
+					{
+						"ScriptName": "RedzHub",
+						"Script": "loadstring(game:HttpGet('https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999'))()"
+					},
+					{
+						"ScriptName": "W-Azure",
+						"Script": "loadstring(game:HttpGet('https://api.luarmor.net/files/v3/loaders/b6b36cec473a0dd48eab35b8272b2384.lua'))()"
+					},
+					{
+						"ScriptName": "Speed hub",
+						"Script": "loadstring(game:HttpGet('https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua', true))()"
+					}
+				],
+				"4442272183": [
+					{
+						"ScriptName": "W-Azure",
+						"Script": "loadstring(game:HttpGet('https://api.luarmor.net/files/v3/loaders/b6b36cec473a0dd48eab35b8272b2384.lua'))()"
+					},
+					{
+						"ScriptName": "RedzHub",
+						"Script": "loadstring(game:HttpGet('https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999'))()"
+					},
+					{
+						"ScriptName": "Speed hub",
+						"Script": "loadstring(game:HttpGet('https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua', true))()"
+					}
+				],
+				"7449423635": [
+					{
+						"ScriptName": "W-Azure",
+						"Script": "loadstring(game:HttpGet('https://api.luarmor.net/files/v3/loaders/b6b36cec473a0dd48eab35b8272b2384.lua'))()"
+					},
+					{
+						"ScriptName": "RedzHub",
+						"Script": "loadstring(game:HttpGet('https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999'))()"
+					},
+					{
+						"ScriptName": "Speed hub",
+						"Script": "loadstring(game:HttpGet('https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua', true))()"
+					}
+				],
+				"4791329820": [
+					{
+						"ScriptName": "inf yield",
+						"Script": "loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()"
+					}
+				],
+				"17360987290": [
+					{
+						"ScriptName": "inf yield",
+						"Script": "loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()"
+					}
+				],
+				"4483381587": [
+					{
+						"ScriptName": "Inf Yield",
+						"Script": "loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()"
+					}
+				]
+			}
+		]])
 
 		if data then
 			local PlaceId = tostring(game.PlaceId)
