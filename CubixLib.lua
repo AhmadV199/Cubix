@@ -1,4 +1,4 @@
-print("Hello World Cubix")
+
 local function loadUI()
 	local G2L = {};
 
@@ -6515,6 +6515,4 @@ local function loadUI()
 	return G2L["1"], require;
 end
 
-return {
-	loadUI = loadUI
-}
+loadUI()
