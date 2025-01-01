@@ -1,0 +1,6 @@
+{
+  "moduleName": "Cubix",
+  "rbxhttp": false,
+  "script": "loadstring(game:HttpGet(\"https://raw.githubusercontent.com/AhmadV199/Cubix/refs/heads/main/CubixLib.lua\"))()",
+  "versionName": "1.4.5"
+}
