@@ -1,5 +1,9 @@
 
 local function loadUI()
+	setreadonly(client, false);
+	client.enableautoexec()
+	setreadonly(client, true);
+	
 	local G2L = {};
 
 	-- WOpZHbat.MainUI
